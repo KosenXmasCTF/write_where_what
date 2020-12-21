@@ -1,6 +1,6 @@
 # write_where_what
 ![Genre: Pwn](https://img.shields.io/badge/genre-Pwn-brightgreen?style=for-the-badge)
-![Difficulty: Beginner](https://img.shields.io/badge/difficulty-Beginner-blue?style=for-the-badge)
+![Difficulty: Easy](https://img.shields.io/badge/difficulty-Easy-blue?style=for-the-badge)
 ![Author: iwancof](https://img.shields.io/badge/author-iwancof-lightgrey?style=for-the-badge)
 
 メモリなんて書き換えちゃえっ！！
