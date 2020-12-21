@@ -1,2 +1,2 @@
 gcc:
-	gcc main.c -o call_me_to_win
+	gcc main.c -o write_where_what
