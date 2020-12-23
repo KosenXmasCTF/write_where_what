@@ -1,0 +1,9 @@
+version: '3'
+
+services:
+  socat:
+    build: '.'
+    image: '${IMAGE_NAME}'
+    container_name: 'write_where_what'
+    ports:
+      - '9000:9000/tcp'
