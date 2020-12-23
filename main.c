@@ -6,9 +6,11 @@ void call_me_to_win() {
 }
 
 int main() {
-  setvbuf(stdin, NULL, _IONBF, 0);
+	// set up for CTF
+  setvbuf(stdin, NULL, _IONBF, 0); 
   setvbuf(stdout, NULL, _IONBF, 0);
 
+	
 	printf("call_me_to_win at %p\n", call_me_to_win);
 
 	unsigned long value = 1; // I like unsigned long value!
