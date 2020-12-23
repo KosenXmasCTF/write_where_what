@@ -1,4 +1,5 @@
 #include<stdio.h>
+#include<unistd.h>
 #include<stdlib.h>
 
 void call_me_to_win() {
@@ -9,6 +10,7 @@ int main() {
 	// set up for CTF
   setvbuf(stdin, NULL, _IONBF, 0); 
   setvbuf(stdout, NULL, _IONBF, 0);
+	alarm(60);
 
 	
 	printf("call_me_to_win at %p\n", call_me_to_win);
